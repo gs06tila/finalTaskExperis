@@ -30,4 +30,7 @@ public class ClassRoleController {
     public List<ClassRole> getAll() {
         return classRoleRepository.findAll();
     }
+
+    //GET /class/{className}
+
 }

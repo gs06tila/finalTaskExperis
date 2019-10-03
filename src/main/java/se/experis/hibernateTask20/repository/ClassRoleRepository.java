@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClassRoleRepository extends JpaRepository<ClassRole, Integer>{
 
-    ClassRole findClassRoleById(int id);
+    ClassRole findClassRoleById(int class_id);
 }
