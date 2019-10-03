@@ -34,7 +34,7 @@ public class ClassRoleController {
     }
 
     @GetMapping("/classRole/{className}")
-    public ClassRole getUser(@PathVariable String className) {
+    public ClassRole getClassRole(@PathVariable String className) {
         return classRoleRepository.findClassRolesByClassName(className);
     }
 
