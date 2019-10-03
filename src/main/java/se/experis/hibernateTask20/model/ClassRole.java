@@ -31,9 +31,7 @@ public class ClassRole {
     }
 
     public ClassRole() {
-        id=0;
-        className = "test";
-        abilities = "Fire";
+
     }
 
    @OneToMany( fetch = FetchType.LAZY, mappedBy = "classRole")

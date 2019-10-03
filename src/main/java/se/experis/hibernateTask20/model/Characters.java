@@ -60,10 +60,6 @@ public class Characters {
         return classId;
     }
 
-
-    /*@ManyToOne(fetch = FetchType.LAZY)
-            @JoinColumn(name = "user_id")
-            private ClassRole classRole;*/
     @ManyToOne(optional = false)
     @JoinColumn(name = "class_id", referencedColumnName = "class_id", insertable = false, updatable=false)
     private ClassRole classRole;
