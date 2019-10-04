@@ -43,4 +43,9 @@ public class User {
 
     @OneToMany( fetch = FetchType.LAZY, mappedBy = "user")
     private List<Characters> characters;
+
+    public List<Characters> getCharacters() {
+        return characters;
+    }
+
 }

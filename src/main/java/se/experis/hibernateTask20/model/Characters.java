@@ -33,11 +33,7 @@ public class Characters {
     }
 
     public Characters() {
-        id=0;
-        userId = 1;
-        name="timtimtim";
-        level=2;
-        classId=13;
+
     }
 
     public int getId() {

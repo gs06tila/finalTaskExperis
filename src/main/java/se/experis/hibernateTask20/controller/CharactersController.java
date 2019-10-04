@@ -18,13 +18,6 @@ public class CharactersController {
         this.charactersRepository = charactersRepository;
     }
 
-    @GetMapping("/addcharacter")
-    public String addCharacter() {
-        Characters aCharacter = new Characters(7, "Tim", 4, 2);
-        charactersRepository.save(aCharacter);
-
-        return "200";
-    }
 
     @GetMapping("/characters")
     public List<Characters> getAll() {
